@@ -12,12 +12,12 @@ try {
 } catch (e) {
     ghostConfig = {
         development: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: "https://ghostez.herokuapp.com",
+            contentApiKey: "6a95a75f171b598402bf99eca8",
         },
         production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
+            apiUrl: "https://ghostez.herokuapp.com",
+            contentApiKey: "6a95a75f171b598402bf99eca8",
         },
     }
 } finally {
