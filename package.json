@@ -32,9 +32,13 @@
     "gatsby-theme-ghost-dark-mode": "^1.0.6",
     "gatsby-theme-try-ghost": "^1.7.4",
     "gatsby-transformer-rehype": "^1.1.4",
+    "i18next": "^19.4.1",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "i18next-xhr-backend": "^3.2.2",
     "prismjs": "^1.20.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
